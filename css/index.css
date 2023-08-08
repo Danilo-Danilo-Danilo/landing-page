@@ -1,0 +1,208 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:0;
+    
+}
+a{
+    text-decoration: none;
+}
+.header, .intro, .footer, .samples, .sign-area, .quote-box, .intro-info, .intro-title, .into-text, .intro-button{
+    flex: auto;
+    display: flex;
+
+}
+.header, .intro, .footer, .samples, .sign-area, .quote-box{
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.header, .intro, .footer{
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.header{
+    justify-content: space-evenly;
+    padding-top: 18px;
+    padding-bottom: 72px;
+    
+}
+
+.h-logo{
+    flex:auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.h-links{
+    display:flex;
+    flex: auto;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.h-link{
+    flex: 0 1 auto;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.intro{
+    padding-bottom: 72px;
+}
+.intro-info{
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 42vw;
+}
+
+.intro-title{
+    flex: 0 1 auto;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro-text{
+    flex: 0 1 auto;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.intro-button{
+    flex: 0 1 auto;
+}
+.intro-button button, .sign-button button{
+    background: #3882F6;
+    height: 32px;
+    width: 128px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#E5E7EB;
+    
+}
+
+.sign-button button{
+    border-color: #E5E7EB;
+    border: 2px;
+    border-style: solid;
+}
+
+.samples{
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding-top: 2rem;
+}
+.samples-title{
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: center;
+    color: #1F2937;
+    flex:1 0 auto;
+}
+
+.samples-container{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 2rem;
+    gap: 3rem;
+    
+}
+.sample-box{
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: center;
+}
+
+.sample-pic{
+    height: 128px;
+    width:128px;
+    flex: 1 0 auto;
+    border: 3px solid #3882F6;
+    border-radius: 1rem;
+}
+.sample-text{
+    flex:1 0 auto;
+    width: 128px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.quote-box{
+    height: 16rem;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+    
+}
+
+.sign-area{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+.sign-box{
+    height: 6rem;
+    flex: 1 0 auto;
+    display:flex ;
+    background-color: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.sign-text{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-bottom{
+    color:#F9FAF8;
+    font-size: 16px;
+    margin-top: 0;
+}
+.sign-call{
+    color:#F9FAF8;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.footer{
+    height: 8rem;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+.img{
+    display: flex;
+    flex: 0 0 auto;
+    width: 42vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img img{
+    width: 35vw;
+    height: auto;
+    flex: 0 0 auto;
+}
